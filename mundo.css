@@ -1,0 +1,38 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #F1C40F; 
+    padding: 20px;
+    text-align: left;
+   
+}
+header img {
+    border: 5px solid #000;
+    margin-top: 10px;
+}
+
+.vid video {
+    max-width: 600px; /* Limits the video size on large screens */
+    width: 100%;     /* Ensures it shrinks nicely on small screens */
+    display: block;  /* Treats the video like a block for margin centering */
+    margin: 0 auto;  /* Centers the block horizontally */
+}
+section pre {
+    background-color: #FFF8DC; 
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.youtube-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #FF0000; 
+    color: #FFFFFF; 
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: inset;
+}
